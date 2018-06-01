@@ -1,0 +1,113 @@
+body,h1,h2,h3,h4,h5,h6,ul,p {
+	margin: 0;
+	padding: 0;
+	font-family: '宋体';
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	font-size: 14px;
+}
+img {
+	display: block;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.gWidth {
+	width: 960px;
+	margin: 0 auto;
+}
+body {
+	background: #F7F7F7;
+}
+/*banner*/
+.banner {
+	height: 191px;
+	background: url('../images/banner.png');
+	background-size: 100% 100%;
+}
+.logo {
+	padding-top: 4px;
+	margin-left: 5px;
+}
+.topzt {
+	margin-top: 16px;
+	margin-left: 35px;
+}
+/*nav*/
+.nav {
+	height: 38px;
+	background: #4CACF8;
+}
+.menu a {
+	font-size: 14px;
+	line-height: 38px;
+	color: #fff;
+}
+/*content1*/
+.content1 {
+	padding-top: 62px;
+}
+.content1 h3 {
+	font-size: 22px;
+	margin-bottom: 24px;
+	background: url('../images/dljm.png') no-repeat left center;
+	margin-left: 80px;
+	padding-left: 18px;
+}
+.content1 form {
+	width: 810px;
+	margin: 0 auto;
+	background: #fff;
+	padding-top: 29px;
+	padding-bottom: 128px;
+}
+.content1 form p {
+	margin-left: 94px;
+	font-size: 14px;
+	line-height: 50px;
+	font-weight: bold;
+}
+.content1 form p span {
+	color: red;
+	font-size: 12px;
+}
+.content1 form p input {
+	border: 1px solid #A2C1D5;
+	margin-left: 15px;
+}
+.content1 form button {
+	margin-left: 94px;
+	width: 180px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	color: #fff;
+	background: #2BB3F3;
+	font-size: 18px;
+	border: none;
+	border-radius: 3px;
+	margin-top: 11px;
+}
+/*foot*/
+.foot {
+	padding-top: 110px;
+}
+.foot p {
+	line-height: 44px;
+	font-size: 12px;
+	color: #656565;
+	text-align: center;
+	font-family: '宋体';
+}

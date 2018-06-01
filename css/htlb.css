@@ -1,0 +1,129 @@
+body,h1,h2,h3,h4,h5,h6,ul,p {
+	margin: 0;
+	padding: 0;
+	font-family: '宋体';
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	font-size: 14px;
+}
+img {
+	display: block;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.gWidth {
+	width: 950px;
+	margin: 0 auto;
+}
+body {
+	background: #fff;
+}
+/*head*/
+.head {
+	height: 69px;
+	background: url('../images/htlb-1.png');
+	background-size: 100% 100%;
+}
+.header img {
+	float: left;
+	margin-top: 10px;
+}
+.header p {
+	float: right;
+	font-size: 14px;
+	color: #ccc;
+	margin-top: 25px;
+}
+.header p a {
+	color: #ccc;
+}
+/*con1*/
+.con1 {
+	margin-top: 25px;
+	margin-bottom: 26px;
+	height: 54px;
+	background: url('../images/htlb-3.png');
+}
+.con1 h2 {
+	font-size: 30px;
+	line-height: 52px;
+	text-align: center;
+	width: 945px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 auto;
+}
+/*con2*/
+.con2 .xxk li {
+	float: left;
+	margin-right: 8px;
+}
+.con2 .xxk a {
+	display: inline-block;
+	width: 240px;
+	height: 30px;
+	font-size: 16px;
+	color: #38A5FB;
+	border: 1px solid #38A5FB;
+	text-align: center;
+	line-height: 30px;
+}
+.con2 .xxk .act a {
+	border-color: #FF9C71;
+}
+.con2 button {
+	width: 66px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	border: none;
+	background: #06B0FF;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 3px;
+	margin-top: 15px;
+	margin-bottom: 28px;
+}
+.con2 table {
+	width: 948px;
+	border-collapse: collapse;
+
+}
+.con2 table tr {
+	font-size: 12px;
+	border: 1px solid #ccc;
+}
+.con2 table .t1 {
+	font-weight: bold;
+	background: #F1F1F1;
+}
+.con2 table .t2 {
+	background: #F1F1F1;
+}
+.con2 table .t3 td {
+	text-align: center;
+}
+/*foot*/
+.foot {
+	padding-top: 400px;
+}
+.foot p {
+	line-height: 44px;
+	font-size: 12px;
+	color: #656565;
+	text-align: center;
+	font-family: '宋体';
+}
